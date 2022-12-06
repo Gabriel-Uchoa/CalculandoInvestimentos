@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1670290302294" clover="3.2.0">
-  <project timestamp="1670290302294" name="All files">
+<coverage generated="1670291822604" clover="3.2.0">
+  <project timestamp="1670291822604" name="All files">
     <metrics statements="34" coveredstatements="34" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="42" coveredelements="42" complexity="0" loc="34" ncloc="34" packages="1" files="2" classes="2"/>
-    <file name="gabrielFuncoes.js" path="C:\Users\User\Marcos\Projetos\FRONT-END\CalculandoInvestimentos\gabrielFuncoes.js">
+    <file name="gabrielFuncoes.js" path="/home/gabriel_arch/flit/CalculandoInvestimentos/gabrielFuncoes.js">
       <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
@@ -21,7 +21,7 @@
       <line num="25" count="1" type="stmt"/>
       <line num="28" count="1" type="stmt"/>
     </file>
-    <file name="marcosFuncoes.js" path="C:\Users\User\Marcos\Projetos\FRONT-END\CalculandoInvestimentos\marcosFuncoes.js">
+    <file name="marcosFuncoes.js" path="/home/gabriel_arch/flit/CalculandoInvestimentos/marcosFuncoes.js">
       <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <line num="4" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>

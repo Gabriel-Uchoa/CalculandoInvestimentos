@@ -1,11 +1,11 @@
 const marcosTeste = require('./marcosFuncoes');
 
 test('Cálculo de Juros simples', ()=>{
-    expect(marcosTeste.CalcularJurosSimples(1000, 2, 12)).toBe(240)
+    expect(marcosTeste.CalcularJurosSimples(1000, 2, 1)).toBe(240)
 })
 
 test('Cálculo de Juros composto', ()=>{
-    expect(marcosTeste.CalcularJurosCompostos(1000, 2, 12)).toBe(1268.24)
+    expect(marcosTeste.CalcularJurosCompostos(1000, 2, 1)).toBe(1268.24)
 })
 
 test('Cálculo de Rentabilidade real', ()=>{
