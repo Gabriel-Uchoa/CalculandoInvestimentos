@@ -9,7 +9,7 @@ function calculoJurosCompostos(M, i, t) {
     var taxaJurosConvertida = i / 100
     var tempoEmAnos = t * 12
     var montante = M * (1 + taxaJurosConvertida) ** tempoEmAnos
-    return (montante.toFixed(2))
+    return parseFloat(montante.toFixed(2))
 }
 
 function calculoRentabilidadeReal(r, i) {
@@ -17,12 +17,12 @@ function calculoRentabilidadeReal(r, i) {
     var inflacaoConvertida = i / 100
     var valorFinal = (1 + rentabilidadeConvertida) / (1 + inflacaoConvertida) - 1
     var valorFinalConvertidoPorcentagem = valorFinal * 100
-    return valorFinalConvertidoPorcentagem.toFixed(2)
+    return parseFloat(valorFinalConvertidoPorcentagem.toFixed(2))
 }
 
 function calculoRentabilidadePassada(pa, pp) {
     var valorFinal = (pa / pp) * 100 - 100
-    return valorFinal
+    return parseFloat(valorFinal.toFixed(2))
 }
 
-module.exports = { calculoJurosSimples, calculoJurosCompostos }
+module.exports = { calculoJurosSimples, calculoJurosCompostos, calculoRentabilidadeReal, calculoRentabilidadePassada }
