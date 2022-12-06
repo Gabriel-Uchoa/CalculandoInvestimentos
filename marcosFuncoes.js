@@ -8,7 +8,7 @@ function CalcularJurosSimples(valorInicial, txJuros, tempo) {
     let valorFinal = valorInicial * jurosDecimais * tempo
 
     console.log(`Juros simples - ${valorFinal}`)
-    return valorFinal
+    return parseFloat(valorFinal)
 }
 
 CalcularJurosCompostos(1000, 2, 12)
@@ -19,7 +19,7 @@ function CalcularJurosCompostos(valorInicial, txJuros, tempo) {
     let valorFinal = valorInicial * (1 + jurosDecimais) ** tempo
 
     console.log(`Juros compostos - ${valorFinal.toFixed(2)}`)
-    return valorFinal.toFixed(2)
+    return parseFloat(valorFinal.toFixed(2))
 }
 
 CalcularRentabilidadeReal(8, 4)
@@ -33,7 +33,7 @@ function CalcularRentabilidadeReal(rentabilidade, inflacao) {
     valorFinal = valorFinal * 100
 
     console.log(`Rentabilidade Real - ${valorFinal.toFixed(1)}%`)
-    return valorFinal.toFixed(1)
+    return parseFloat(valorFinal.toFixed(1))
 
 }
 
@@ -43,8 +43,8 @@ function CalcularRentabilidadePassada(precoAtual, precoAnterior) {
 
     let valorFinal = (precoAtual / precoAnterior) * 100 - 100
 
-    console.log(`Rentabilidade Passada - ${valorFinal.toFixed(2)}%`)
-    return valorFinal
+    console.log(`Rentabilidade Passada - ${parseFloat(valorFinal.toFixed(2))}%`)
+    return parseFloat(valorFinal)
 }
 
 module.exports = {CalcularJurosSimples, CalcularJurosCompostos, CalcularRentabilidadeReal, CalcularRentabilidadePassada}
