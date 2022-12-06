@@ -15,5 +15,3 @@ test('Função para calcular rentabilidade real', () => {
 test('Função para calcular rentabilidade passada', () => {
     expect(gabrielFuncoes.calculoJurosSimples(14, 9)).toBe(55,55)
 })
-
-
