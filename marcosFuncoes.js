@@ -42,7 +42,7 @@ function CalcularRentabilidadePassada(precoAtual, precoAnterior) {
     let valorFinal = (precoAtual / precoAnterior) * 100 - 100
 
     console.log(`Rentabilidade Passada - ${valorFinal.toFixed(2)}%`)
-    return parseFloat(valorFinal)
+    return parseFloat(valorFinal.toFixed(2))
 }
 
 module.exports = {CalcularJurosSimples, CalcularJurosCompostos, CalcularRentabilidadeReal, CalcularRentabilidadePassada}
