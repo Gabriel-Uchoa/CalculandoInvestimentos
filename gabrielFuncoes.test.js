@@ -9,9 +9,9 @@ test('Função para calcular juros compostos', () => {
 })
 
 test('Função para calcular rentabilidade real', () => {
-    expect(gabrielFuncoes.calculoJurosSimples(8, 4)).toBe(3.8)
+    expect(gabrielFuncoes.calculoRentabilidadeReal(8, 4)).toBe(3.8)
 })
 
 test('Função para calcular rentabilidade passada', () => {
-    expect(gabrielFuncoes.calculoJurosSimples(14, 9)).toBe(55.56)
+    expect(gabrielFuncoes.calculoRentabilidadePassada(14, 9)).toBe(55.56)
 })
