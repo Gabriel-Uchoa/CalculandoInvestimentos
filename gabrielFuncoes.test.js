@@ -1,11 +1,11 @@
 const gabrielFuncoes = require('./gabrielFuncoes')
 
 test('Função para calcular juros simples', () => {
-    expect(gabrielFuncoes.calculoJurosSimples(1000, 2, 12)).toBe(240)
+    expect(gabrielFuncoes.calculoJurosSimples(1000, 2, 1)).toBe(240)
 })
 
 test('Função para calcular juros compostos', () => {
-    expect(gabrielFuncoes.calculoJurosCompostos(1000, 2, 12)).toBe(1268,24)
+    expect(gabrielFuncoes.calculoJurosCompostos(1000, 2, 1)).toBe(1268.24)
 })
 
 test('Função para calcular rentabilidade real', () => {
