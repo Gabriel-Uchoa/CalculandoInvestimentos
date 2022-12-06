@@ -9,7 +9,7 @@ test('Cálculo de Juros composto', ()=>{
 })
 
 test('Cálculo de Rentabilidade real', ()=>{
-    expect(marcosTeste.funcao(8, 4)).tobe(2.8)
+    expect(marcosTeste.funcao(8, 4)).tobe(3.8)
 })
 
 test('Cálculo de Rentabilidade passada', ()=>{
