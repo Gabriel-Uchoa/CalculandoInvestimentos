@@ -49,4 +49,4 @@ function CalcularRentabilidadePassada(precoAtual, precoAnterior) {
 
 module.exports = {CalcularJurosSimples, CalcularJurosCompostos, CalcularRentabilidadeReal, CalcularRentabilidadePassada}
 
-
+//aaaa
