@@ -17,7 +17,7 @@ function calculoRentabilidadeReal(r, i) {
     var inflacaoConvertida = i / 100
     var valorFinal = (1 + rentabilidadeConvertida) / (1 + inflacaoConvertida) - 1
     var valorFinalConvertidoPorcentagem = valorFinal * 100
-    return parseFloat(valorFinalConvertidoPorcentagem.toFixed(2))
+    return parseFloat(valorFinalConvertidoPorcentagem.toFixed(1))
 }
 
 function calculoRentabilidadePassada(pa, pp) {
